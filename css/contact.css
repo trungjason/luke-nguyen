@@ -1,0 +1,162 @@
+.contact-header {
+  margin: 0 auto;
+}
+
+.contact-header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+}
+
+.contact-header-heading {
+  position: absolute;
+
+  font-family: "Koulen";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100px;
+  text-transform: capitalize;
+
+  color: #f9de5a;
+}
+
+.contact-detail-wrapper {
+  /* padding: 0 332px; */
+  max-width: 777px;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-form-group {
+  width: 100%;
+  min-height: 138px;
+
+  padding: 40px 63px 16px 63px;
+  margin-bottom: 40px;
+  
+  background-color: #d9d9d9;
+  border-radius: 20px;
+}
+
+.contact-form-group.contact-form-group--large {
+  min-height: 240px;
+}
+
+.contact-label-heading {
+  /* h3 */
+  display: block;
+
+  font-family: "Koulen";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  text-transform: capitalize;
+
+  color: #000000;
+}
+
+.contact-form-placeholder {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: normal;
+
+  color: #000000;
+
+  outline: none;
+  background-color: transparent;
+  padding: 10px 20px;
+  border-radius: 10px;
+  width: 100%;
+
+  /* Setting default border to prevent UI stuttering */
+  border: 3px solid transparent;
+}
+
+.contact-form-placeholder:focus {
+  border: 3px solid #000000;
+}
+
+textarea.contact-form-placeholder {
+  resize: vertical;
+  min-height: 150px;
+}
+
+::placeholder {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: normal;
+
+  color: #000000;
+}
+
+::-webkit-input-placeholder {
+  /* Edge */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: normal;
+
+  color: #000000;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: normal;
+
+  color: #000000;
+}
+
+.btn.btn-primary.contact-form-button {
+  /* h2 */
+  font-family: "Koulen";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #0b1419;
+
+  padding: 42px 0;
+  width: 100%;
+  border-width: 5px;
+
+  max-height: 72px;
+}
+
+.btn.btn-primary.contact-form-button:hover {
+  color: var(--button);
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .contact-header-heading {
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .contact-form-group {
+    padding: 16px 24px;
+  }
+
+  .btn.btn-primary.contact-form-button {
+    padding: 16px 0;
+  }
+}

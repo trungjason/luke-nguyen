@@ -1,0 +1,195 @@
+.process-container:last-child {
+    margin-bottom: 0;
+}
+/* Ideate */
+.process-container p.process-content.process-ideate-content {
+    max-width: 594px;
+}
+
+.process-ideate-image-wrapper {
+    position: absolute;
+    right: 0;
+    top: 15%;
+}
+
+.process-ideate-image {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.clear-absolute {
+    height: 400px;
+}
+
+/* Prototype */
+.process-outside-container.prototype-outside-container {
+    min-height: 1096px;
+    background-color: #e4e4e4;
+    
+    margin-bottom: 64px;
+}
+
+.process-container h3.process-sub-heading {
+    /* h3 */
+    font-family: 'Koulen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 43px;
+    text-transform: capitalize;
+
+    color: #000000;
+
+    margin-top: 42px;
+    margin-left: 146px;
+    margin-bottom: 0px;
+}
+
+/* User analysis */
+.user-analysis-container {
+    position: relative;
+
+    padding: 50px 40px 0 590px;
+}
+
+.user-analysis-container:before {
+    content: "";
+    display: inline-block;
+
+    position: absolute;
+    left: 0;
+    top: 15%;
+
+    height: 60%;
+    width: 45px;
+    background-color: #000;
+}
+
+.user-analysis-container .white-sub-container {
+    position: absolute;
+    left: 45px;
+    top: 5%;
+
+    background-color: white;
+    width: 500px;
+    height: 450px;
+}
+
+.user-analysis-content {
+    margin: 0 !important;
+}
+
+/* Understand */
+.process-outside-container.with-out-flex {
+    display: block;
+    height: auto;
+    margin-bottom: 0;
+}
+
+/* User tasks */
+.process-outside-container .user-tasks-container {
+    width: 100% ;
+    height: 691px;
+    background-color: #fff;
+
+    position: relative;
+}
+
+
+.user-tasks-container .user-tasks-heading-wrapper {
+    padding-left: 55%;
+}
+
+.user-tasks-heading-wrapper .user-task-heading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 90px;
+    text-transform: normal;
+
+    color: #f9d451;
+
+    position: relative;
+}
+
+.user-tasks-heading-wrapper .user-task-heading:after {
+    content: "";
+    display: block;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    width: 75%;
+    height: 5%;
+
+    background: linear-gradient(90deg, #000 50%, #f9d451 50%);
+}
+
+/* Finding */
+
+.process-outside-container .findings-container {
+    width: 100% ;
+    height: 710px;
+    background-color: #ffd426;
+}
+
+/* Solutions */
+
+.process-outside-container .solutions-container {
+    width: 100% ;
+    height: 727px;
+    background-color: #ffd426;
+}
+
+/* Footer */
+.yellow-container-footer {
+    background-color: #ffd426;
+    padding: 50px 26px 26px 26px;
+    margin-top: 0;
+}
+
+@media screen and (max-width: 1440px) {
+    .yellow-container-footer {
+        margin: 0 -26px;
+    }
+}
+
+@media screen and (max-width: 1365px) {
+    .process-container p.process-content.process-ideate-content {
+        width: 100%;
+        max-width: none;
+    }
+
+    .process-ideate-image-wrapper {
+        position: static;
+        margin-top: 20px;
+    }
+
+}
+
+@media screen and (max-width: 1140px) {
+    .process-outside-container .user-tasks-container, .findings-container
+    ,.solutions-container {
+        height: auto !important;
+    }
+
+    .yellow-container-footer {
+        padding: 48px 26px 26px 26px;
+        height: auto;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .process-outside-container.prototype-outside-container {
+        min-height: auto;
+    }
+
+    .let-work-together-heading {
+        margin-top: 40px;
+        font-size: 40px;
+        line-height: 40px;
+    }
+}
