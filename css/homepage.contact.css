@@ -1,0 +1,61 @@
+/* Center Container - Contact box */
+.contact-container {
+  grid-row: 2/ 3;
+  grid-column: 3/4;
+
+  background: transparent;
+  border-radius: 20px;
+  border: 2px solid white;
+
+  padding: 16px 32px;
+}
+
+.contact-container h1.contact-heading {
+  font-family: var(--primary-font);
+  font-size: 36px;
+  /* text-transform: capitalize; */
+  text-transform: uppercase;
+
+  text-align: center;
+  color: var(--primary-color);
+  /* color: white; */
+}
+
+.contact-list {
+  margin-top: 32px;
+  list-style: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  gap: 32px;
+}
+
+.contact-item {
+  min-width: 80px;
+  min-height: 62px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-item-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 58px;
+
+  position: relative;
+  color: white;
+
+  transition: all 0.2s ease-in;
+}
+
+.contact-item-link:hover {
+  color: var(--primary-color);
+  font-size: 64px;
+}

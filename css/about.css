@@ -1,92 +1,87 @@
 .about-content {
-    max-height: 1388px;
-    margin: 0 auto;
-    display: flex;
+  margin: 0 auto;
+  display: flex;
 }
 
 /* Logo */
 .about-image-wrapper {
-    display: inline-block;
-    position: relative;
+  display: inline-block;
+  position: relative;
 }
 
 .about-image {
-    margin-bottom: 14px;
+  margin-bottom: 14px;
 }
 
 .about-image-hover {
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    transition: opacity 0.5s ease-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
 }
 
 .about-image-hover:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
 /* Social icons */
 .socials-media-list {
-    list-style: none;
+  list-style: none;
 }
 
 .socials-media-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-
 .social-medial-link {
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 
 .social-medial-image-hover {
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    transition: opacity 0.5s ease-in;   
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease-in;
 }
 
 .social-medial-image-hover:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
 .social-media-item {
-    margin-bottom: 54px;
+  margin-bottom: 54px;
 }
 
 .about-detail {
-    flex: 1;
-    margin-top: 90px;
+  flex: 1;
+  margin-top: 90px;
 }
 
 /* Bio */
 .about-detail h1.about-heading {
-    display: flex;
-    align-items: center;
-    transform: translate(-10%, -16%);
+  display: flex;
+  align-items: center;
+  transform: translate(-10%, -16%);
 
-    /* BIG-HEAD */
-    font-family: 'Koulen';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 60px;
-    line-height: 100%;
-    text-transform: capitalize;
+  /* BIG-HEAD */
+  font-family: var(--primary-font);
+  font-size: 60px;
+  text-transform: capitalize;
 
-    color: #000000;
+  color: white;
 }
 
 .about-heading-icon {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 .about-heading-icon:hover {
-   /* Start the shake animation and make the animation last for 0.5 seconds */
+  /* Start the shake animation and make the animation last for 0.5 seconds */
   animation: shake 0.5s;
 
   /* When the animation is finished, start again */
@@ -94,261 +89,249 @@
 }
 
 .about-detail-content {
-    margin-top: 0px;
+  margin-top: 0px;
 
-    font-family: 'Poppins', 'Koulen';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
+  font-family: var(--secondary-font);
+  font-size: 24px;
 
-    color: #000000;
+  color: white;
 }
 
-.about-detail-content strong{
-    font-family: 'Koulen';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
+.about-detail-content strong {
+  font-family: var(--primary-font);
+  font-size: 24px;
 
-    color: #000000;
-	
-	line-height: 100%;
+  color: var(--primary-color);
 }
 
 /* More About Me */
 .more-about-content {
-    margin: 0 auto;
-    margin-top: 38px;
-    max-width: 1100px;
+  margin: 0 auto;
+  margin-top: 38px;
+  max-width: 1100px;
 }
 
 h2.more-about-outside-heading {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 
-    font-family: 'Koulen';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
+  font-family: var(--primary-font);
+  font-size: 30px;
 
-    text-transform: capitalize;
-    color: #000000;
+  text-transform: capitalize;
+  color: white;
 }
 
 h1.more-about-main-heading {
-    padding: 30px 36px;
+  padding: 30px 36px;
 
-    font-family: 'Koulen';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 60px;
-    text-transform: capitalize;
-    color: #000000;
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  text-transform: capitalize;
+  color: white;
 }
 
 .more-about-wrapper {
-    background: #D9D9D9;
-    border-radius: 20px;
+  background: #d9d9d9;
+  border-radius: 20px;
 }
 
 .more-about-main-content {
-    display: flex;
-    align-items: start;
-    justify-content: space-between;
-    padding: 0 121px;
-    margin-bottom: 38px;
-    
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  padding: 0 121px;
+  margin-bottom: 38px;
 
-    color: #000000;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+
+  color: white;
 }
 
 .col-three {
-    margin-bottom: 54px;
+  margin-bottom: 54px;
 }
 
 .main-content-list {
-    list-style: none;
+  list-style: none;
 }
 
 /* Education & Software */
 
 .about-specialize {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 
-    max-width: 1100px;
-    margin: 0 auto;
-    margin-bottom: 46px;
+  max-width: 1100px;
+  margin: 0 auto;
+  margin-bottom: 46px;
 }
 
 .specialize-col {
-    background: #D9D9D9;
-    border-radius: 20px;
-    width: 536px;
+  background: #d9d9d9;
+  border-radius: 20px;
+  width: 536px;
 }
 
 .specialize-col h1.specialize-heading {
-    padding: 36px 47px;
+  padding: 36px 47px;
 
-    font-family: 'Koulen';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 60px;
-    line-height: 108px;
-    text-transform: capitalize;
-    
-    color: #000000;
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 108px;
+  text-transform: capitalize;
+
+  color: #000000;
 }
 
 .specialize-col .specialize-list {
-    list-style: none;
-    padding: 0px 36px 32px 113px;
+  list-style: none;
+  padding: 0px 36px 32px 113px;
 }
 
 .specialize-list h3.specialize-heading {
-    font-family: 'Koulen';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    text-transform: capitalize;
-    
-    color: #000000;
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  text-transform: capitalize;
+
+  color: #000000;
 }
 
 .specialize-list p.specialize-description {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    text-transform: capitalize;
-    
-    color: #000000;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: capitalize;
+
+  color: #000000;
 }
 
 .specialize-list p.specialize-description strong {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
 
-    text-transform: none;
-    font-style: italic;
-    
-    color: #8d8e89;
+  text-transform: none;
+  font-style: italic;
+
+  color: #8d8e89;
 }
-
 
 /* Responsive */
 @media only screen and (max-width: 1413px) {
-    .about-content {
-        flex-direction: column;
-    }
+  .about-content {
+    flex-direction: column;
+  }
 
-    .about-image-wrapper {
-        margin: 0 auto;
-    }
+  .about-image-wrapper {
+    margin: 0 auto;
+  }
 
-    .socials-media-wrapper {
-        flex-direction: row;
-    }
+  .socials-media-wrapper {
+    flex-direction: row;
+  }
 
-    .socials-media-list {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-    }
+  .socials-media-list {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
 
-    .about-detail {
-        margin-top: 0;
-        padding: 0 100px;
-    }
-    
-    .about-heading {
-        transform: none !important;
-        margin-bottom: 32px;
-        /* text-align: center; */
-        /* justify-content: center; */
-    }
+  .about-detail {
+    margin-top: 0;
+    padding: 0 100px;
+  }
 
-    .about-detail-content {
-        /* text-align: center; */
-    }
+  .about-heading {
+    transform: none !important;
+    margin-bottom: 32px;
+    /* text-align: center; */
+    /* justify-content: center; */
+  }
 
-    .about-specialize {
-        flex-direction: column;
-    }
+  .about-detail-content {
+    /* text-align: center; */
+  }
 
-    .specialize-col {
-        width: 100%;
-        margin-bottom: 38px;
-    }
-    
-    .more-about-main-content {
-        flex-wrap: wrap;
-    }
+  .about-specialize {
+    flex-direction: column;
+  }
 
-      
+  .specialize-col {
+    width: 100%;
+    margin-bottom: 38px;
+  }
+
+  .more-about-main-content {
+    flex-wrap: wrap;
+  }
 }
 
-@media only screen and (max-width: 935px){
-    .col-three {
-        border-bottom: 2px solid black;
-    }
+@media only screen and (max-width: 935px) {
+  .col-three {
+    border-bottom: 2px solid black;
+  }
 
-    .specialize-item {
-        margin-bottom: 10px;
-        border-bottom: 2px solid #000000;
-    }
+  .specialize-item {
+    margin-bottom: 10px;
+    border-bottom: 2px solid #000000;
+  }
 
-    .about-content {
-        max-height: none;
-    }
+  .about-content {
+    max-height: none;
+  }
 
-    .about-detail {
-        margin-top: -16px;
-        
-        padding: 0;
-    }
-    
-    .about-heading {
-        transform: none !important;
-        text-align: left;
-        justify-content: flex-start;
-    }
+  .about-detail {
+    margin-top: -16px;
 
-    .about-detail-content {
-        text-align: left;
-    }
+    padding: 0;
+  }
 
-    .more-about-main-content {
-        padding: 0 50px;
-    }
+  .about-heading {
+    transform: none !important;
+    text-align: left;
+    justify-content: flex-start;
+  }
 
-    .specialize-col .specialize-list {
-        list-style: none;
-        padding: 0px 36px 32px 50px;
-    }
+  .about-detail-content {
+    text-align: left;
+  }
+
+  .more-about-main-content {
+    padding: 0 50px;
+  }
+
+  .specialize-col .specialize-list {
+    list-style: none;
+    padding: 0px 36px 32px 50px;
+  }
 }
 
-@media only screen and (max-width: 700px){
-    .about-detail h1.about-heading {
-        font-size: 50px;
-		text-align: left;
-        margin-top: -20px;
-    }
+@media only screen and (max-width: 700px) {
+  .about-detail h1.about-heading {
+    font-size: 50px;
+    text-align: left;
+    margin-top: -20px;
+  }
 }
 
 @media screen and (max-width: 480px) {
-    h1.more-about-main-heading {
-        font-size: 40px;
-    }
+  h1.more-about-main-heading {
+    font-size: 40px;
+  }
 
-    .specialize-col h1.specialize-heading {
-        font-size: 40px;
-    }
+  .specialize-col h1.specialize-heading {
+    font-size: 40px;
+  }
 }
-
